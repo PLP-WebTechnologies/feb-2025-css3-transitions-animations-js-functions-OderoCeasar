@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 2rem;
+  background-color: white;
+  transition: background-color 0.5s ease;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #333;
+  color: white;
+}
+
+#image {
+  margin-top: 20px;
+  width: 150px;
+  transition: transform 0.5s ease;
+}
+
+
+.spin {
+  animation: spin 1s linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
